@@ -1,0 +1,39 @@
+:root {
+  --color-primary-text: #0F0F0F;
+  --color-secondary-text: #525252;
+  --color-muted-text: #737373;
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #FAFAFA;
+  --color-border-default: #E5E5E5;
+  --color-border-strong: #D4D4D4;
+  --color-interactive-hover: #F2F2F2;
+  --color-focus-ring: #000000;
+
+  /* Monochrome accent palette */
+  --color-accent-light: #737373;
+  --color-accent-mid: #333333;
+  --color-accent-dark: #0F0F0F;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-primary-text);
+  background-color: var(--color-bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use JetBrains Mono for font-mono utility */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+::selection {
+  background-color: var(--color-focus-ring);
+  color: white;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
