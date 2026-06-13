@@ -77,7 +77,7 @@ export function FeaturedCase() {
             <div className="aspect-[16/10] bg-white border border-[#E5E5E5] p-2 rounded-[8px] shadow-sm overflow-hidden">
               <div className="w-full h-full overflow-hidden bg-[#F5F5F5] relative rounded-[4px]">
                 <ImageWithFallback
-                  src="/src/assets/images/banner-1.png"
+                  src="/images/banner-1.png"
                   alt="RentMe Platform Interface"
                   className="object-contain w-full h-full hover:scale-105 transition-all duration-700"
                 />

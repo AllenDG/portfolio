@@ -31,7 +31,7 @@ export const projects: Project[] = [
     category: "Web Application",
     description: "A comprehensive digital rental platform connecting students and young professionals with safe, affordable housing across the Philippines.",
     shortDescription: "Transforming the rental experience with intelligent search and seamless communication.",
-    heroImage: "/src/assets/images/banner-1.png",
+    heroImage: "/images/banner-1.png",
     tags: ["ReactJS", "Tailwind CSS", "Firebase", "Material UI", "JavaScript", "Claude AI", "Google Maps API", "WCAG AA/AAA"],
     client: "Personal Project",
     timeline: "6 Months",
@@ -59,11 +59,11 @@ export const projects: Project[] = [
       colors: ["#2563EB", "#1D4ED8", "#EFF6FF", "#BFDBFE", "#1E3A8A", "#111827"]
     },
     screens: [
-      "/src/assets/images/screen-1.png",
-      "/src/assets/images/screen-2.png",
-      "/src/assets/images/screen-3.png",
-      "/src/assets/images/screen-4.png",
-      "/src/assets/images/screen-5.png"
+      "/images/screen-1.png",
+      "/images/screen-2.png",
+      "/images/screen-3.png",
+      "/images/screen-4.png",
+      "/images/screen-5.png"
     ],
     liveUrl: "https://web-dormitory.vercel.app/"
   }
